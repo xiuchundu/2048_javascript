@@ -4,7 +4,7 @@ function G2048(){
 
 G2048.prototype = {
 	constructor:G2048,
-	init:function(){
+	init:function(){    //初始化
 		this.score = 0;
 		this.arr = [];
 		this.moveAble = false;
